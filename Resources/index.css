@@ -1,0 +1,212 @@
+/*Main body*/
+body {
+    background: linear-gradient(to bottom right, #808080 0%, #000000 100%);
+    
+}
+
+header {
+    position: fixed;
+    margin-top:0;
+    margin-left: 8;
+    padding-top: 0;
+    border: 3px solid greenyellow;
+    background: linear-gradient(to right, #808080 0%, #000000 100%);
+    display:inline-flex;
+    width: 98%;
+    justify-content: space-between;
+    text-align: middle;
+    height: 70px;
+
+}
+
+h1 {
+    margin-top: 10px;
+    margin-left: 50px;
+    color:white;
+    text-shadow: rgb(65, 244, 10) 1px 0 10px;
+    font-weight: bold;
+    font-size: 40px;
+    vertical-align: middle;
+   }
+
+h2 {
+    color:white;
+    padding-bottom: 0px;
+}
+
+
+h3 {
+    color: yellowgreen;
+}
+
+h4 {
+    color: yellowgreen;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+#foot:hover {
+    color: white;
+}
+
+p {
+    border:3px solid greenyellow;
+    background-color: white;
+    height: 320px;
+    margin-left:50px;
+    font-size: 17px;
+    
+}
+
+.me {
+    width: 300px;
+    height:400px;
+    margin-right: 0px;
+    padding-right: 0px;
+    padding-left: 195px;
+    padding-top: 30px;
+}
+
+   /*sub items of body elements*/
+
+ul li {
+    list-style-type:square;
+    color: greenyellow;
+    display:inline;
+    font-weight: bold;
+    margin-right: 25px;
+   vertical-align: middle;
+    font-size: 25px;
+}
+
+li a {
+    color:greenyellow;
+    text-align: center;
+    padding: 5px;
+    text-decoration: underline;
+    
+}
+
+li a:hover {
+    color:white;
+}
+
+span {
+    color: yellowgreen;
+    text-shadow: rgb(65, 244, 10) 1px 0 10px;
+}
+
+.about {
+    content: "";
+    display: table;
+    clear: both;
+    width: 100%;
+ }
+
+.left {
+    float: left;
+    width: 50%;
+}
+
+.right {
+    float: right;
+    width: 50%;
+} 
+
+.left h2 {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    margin-left: 260px; 
+    
+}
+
+.left h3 {
+    margin-left: 190px;
+    margin-top:0px;
+
+}
+
+.about_info {
+    color:black;
+    font-weight:bold;
+}
+
+.section_head h3 {
+    text-align: center;
+}
+
+.section_head {
+    grid-template-rows: auto;
+    text-align: center;
+}
+
+.boxes {
+     width: 99%;
+     display:flex;
+     flex-shrink: inherit;
+}
+
+.box1 {
+    width:33%;
+    border: 3px solid yellowgreen;
+    margin-right: 0px;
+    
+    
+}
+
+.box2 {
+    width:33%;
+    border: 3px solid yellowgreen;
+    margin-right: 0px;
+}
+
+.box3 {
+    width: 33%;
+    border: 3px solid yellowgreen;
+    margin-left: 50px;
+    margin-right: 0px;
+}
+
+.sBox {
+    color: black;
+    font-weight: bold;
+}
+
+#wordpress {
+    font-weight: bold;
+    
+}
+
+.skillImg {
+    height: 100px;
+    width: 100%;
+    display: inline-flex;
+    margin-left: 0 ;
+    padding: 0;
+    justify-content: space-between;
+   }
+
+#html, #css, #java, #git, #github, #word {
+    height: 75px;
+    width:  75px;
+    margin-top: 3;
+    padding-top: 0;
+    padding-left: 0;
+    
+}
+
+.foot {
+    height: 120px;
+
+}
+
+button {
+    border-radius: 30%;
+    margin-left: 220px;
+    width: 120px;
+    height: 70px;
+    border: 3px solid yellowgreen;
+    background-color: black;
+}
